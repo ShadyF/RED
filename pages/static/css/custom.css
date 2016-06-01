@@ -1,0 +1,174 @@
+html, body {
+    height: 100%;
+    font-family: 'Iceland', cursive;
+}
+
+/*
+######################
+#   NAVBAR STYLING   #
+######################
+*/
+
+.navbar {
+    background: #f8f8f8; /*rgba(0, 0, 0 ,0);*/
+    margin-bottom: 0;
+    border-width: 0 0 3px 0;
+    border-bottom-color: #a81010;
+    font-size: 25px;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: #2E2F31;
+}
+
+.navbar .container-fluid .navbar-brand:hover, .navbar-inverse .navbar-nav li a:hover {
+    background: #a81010;
+    color: #f8f8f8;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: #2E2F31;
+}
+
+.navbar .container-fluid .navbar-brand {
+    color: #a81010;
+}
+
+.navbar .navbar-header .icon-bar {
+    background-color: #a81010;
+}
+
+.navbar .navbar-header .navbar-toggle {
+    background-color: #f8f8f8;
+    border: none;
+}
+
+/*
+######################
+#   HEADER STYLING   #
+######################
+*/
+
+header {
+    height: 100%;
+    background: url('../img/fox.jpg') center;
+    text-align: center;
+    overflow: auto; /*Fixes glyphicons not having a background on mobile devices*/
+
+    color: #a81010;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header-content {
+
+    margin-top: 10%;
+    text-align: center;
+    background: none;
+}
+
+.header-content h1 {
+    font-size: 160px;
+}
+
+.header-content p {
+    font-size: 40px;
+    margin-bottom: 8%;
+}
+
+/*
+##############################
+#   AWESOMENESS STYLING   #
+##############################
+*/
+
+.awesomeness {
+    background-color: #82191e; /*#841723;*/
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    color: #f8f8f8;
+}
+
+.awesomeness .section-heading {
+    margin-bottom: 80px;
+}
+
+.awesomeness .section-heading h1 {
+    font-size: 80px;
+}
+
+.awesomeness .section-heading small {
+    font-size: 30px;
+}
+
+.awesomeness .section-heading .line {
+    width: 60px;
+    border-width: 3px;
+}
+
+.awesomeness .glyphicon {
+    font-size: 120px;
+}
+
+.awesomeness h3 {
+    font-size: 30px;
+}
+
+/*
+##############################
+#   TEAM MEMBERS STYLING     #
+##############################
+*/
+.team-members {
+    background-color: #f8f8f8; /*#841723;*/
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.team-members-heading {
+    margin-bottom: 60px;
+}
+
+.team-members-heading h1 {
+    font-size: 80px;
+}
+
+.team-members-heading p {
+    font-size: 20px;
+}
+
+.ceo-info {
+    margin-bottom: 50px;
+}
+
+.ceo-info a:hover, .member-info a:hover {
+    color: #a81010;
+}
+
+.member-name {
+    font-size: 40px;
+    color: #222222;
+}
+
+.member-position {
+    font-size: 22px;
+    line-height: 5px;
+}
+
+.member-info .row > .col-md-4 {
+    padding-bottom: 45px; /*Fixes names being close together on mobile*/
+}
+
+/*Alia's selector, hardcoded*/
+.member-info .row:last-child > .col-md-4:last-child a:hover {
+    color: #70128a;
+}
+
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+}
